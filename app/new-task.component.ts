@@ -8,6 +8,13 @@ import {Task} from './task.model';
   <div class="task-form">
     <h3>Blank template</h3>
     <input placeholder="Description" class="col-sm-8 input-lg" #newDescription>
+
+    <select #newPriority>
+      <option value="high">High</option>
+      <option value="normal">Normal</option>
+      <option value="low">Low</option>
+    </select>
+
     <button (click)="addTask(newDescription)" class="btn-success btn-lg add-button">Add</button>
   </div>
   `
@@ -20,5 +27,10 @@ export class NewTaskComponent {
   addTask(userDescription: HTMLInputElement){
     this.onSubmitNewTask.emit(userDescription.value);
     userDescription.value = "";
+
+  }
+  addPriority(userPriority: HTMLSelectElement){
+    this.onSubmitNewTask.emit(userPriority.value);
+    userPriority.value = "";
   }
 }
