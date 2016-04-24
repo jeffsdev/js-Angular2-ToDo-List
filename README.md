@@ -1,4 +1,5 @@
 # Angular 2 To-Do List
+##### March 2016
 ##### By Jeff Seymour and Cassy Culkins
 
 ## Description
@@ -7,13 +8,15 @@
 ## Technologies Used
 Angular 2, JavaScript, TypeScript, Gulp, Bower, HTML, SASS/SCSS,
 
-## Setup/Installation  
-* Clone this repository.
-* In your terminal, run `$npm install`.
-* In your terminal, run `$bower install`.
-* In your terminal, run `$gulp build`.
-* In your terminal, run `$gulp serve`.
-* View in browser.
+## Installation/Setup  
+Clone this repository.  
+Navigate to project directory.  
+* In your terminal, run `npm install`.  
+* then `bower install`.
+* then `gulp build`.
+* then `gulp serve`.  
+
+View in browser.
 
 ## License
 Copyright (c) 2016 Jeff Seymour
